@@ -1,12 +1,10 @@
-name: First Action Project
+name: First Workflow
 on: workflow_dispatch
 jobs:
-  steps:
-    first_job:
-      runs_on: ubuntu-latest
-      steps:
-        - name: Print Getting 
-          run: echo "Happy Independence Day"
-        - name: Print Bye
-          run: echo "Good bye"
-          
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print goodbye
+        run: echo "Done - bye!"
