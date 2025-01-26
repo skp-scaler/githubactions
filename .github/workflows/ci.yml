@@ -1,5 +1,5 @@
 name: First Action Project
-on: workflow_dispatcher
+on: workflow_dispatch
 jobs:
   steps:
     first_job:
